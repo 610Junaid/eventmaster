@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f7f2; /* Creamy background */
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #5c3d28; /* Dark brown */
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#searchInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #5c3d28; /* Dark brown */
+  color: #fff; /* White */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#searchButton:hover {
+  background-color: #734d37; /* Dark brown - Darker shade */
+}
+
+.venues {
+  display: none; /* Initially hide venues */
+}
+
+.venue {
+  border: 1px solid #e0d1c8; /* Light brown border */
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff8f0; /* Creamy white background */
+}
+
+.venue h2 {
+  margin-top: 0;
+  color: #5c3d28; /* Dark brown */
+}
+
+.venue p {
+  margin-bottom: 10px;
+  color: #7f7167; /* Medium brown */
+}
+
+#showMoreButton {
+  color: brown;
+  background-color: cornsilk;
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  margin-left: 46%;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+}
